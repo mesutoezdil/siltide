@@ -7,6 +7,7 @@
   <a href="https://github.com/mesutoezdil/siltide/releases"><img src="https://img.shields.io/github/v/release/mesutoezdil/siltide?include_prereleases&sort=semver" alt="release"></a>
   <a href="go.mod"><img src="https://img.shields.io/github/go-mod/go-version/mesutoezdil/siltide" alt="go version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="license"></a>
+  <a href="https://github.com/sponsors/mesutoezdil"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="sponsor"></a>
 </p>
 
 siltide is a terminal monitor for AI accelerators from 15 vendors: GPUs, NPUs, XPUs, MLUs, DCUs, GCUs, and Apple silicon. It shows utilization, memory, processes, power, thermals, links, and health per device. History stays on disk. Pods and Slurm jobs sit next to processes. JSON and Prometheus cover fleets.
