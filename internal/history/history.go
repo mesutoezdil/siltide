@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // Tracked are the metrics kept in history, in column order.

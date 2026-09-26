@@ -59,7 +59,7 @@ spec:
         - operator: Exists
       containers:
         - name: siltide
-          image: ghcr.io/mesutoezdil/siltide:latest
+          image: ghcr.io/moezdil/siltide:latest
           args: ["--service", "--listen", ":9800"]
           env:
             - name: NODE_NAME

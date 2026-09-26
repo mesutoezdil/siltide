@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 var leadingNum = regexp.MustCompile(`^[-+]?\d+(?:\.\d+)?`)

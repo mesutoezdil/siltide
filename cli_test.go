@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/provider"
 )
 
 // fakeProviders are one vendor that answers and one that does not.

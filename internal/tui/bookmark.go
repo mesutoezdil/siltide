@@ -8,7 +8,7 @@ import (
 
 	"go.yaml.in/yaml/v3"
 
-	"github.com/mesutoezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/config"
 )
 
 // Bookmark is a view someone returns to: a tab plus the filters that were in

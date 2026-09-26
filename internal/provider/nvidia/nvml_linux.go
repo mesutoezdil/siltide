@@ -11,8 +11,8 @@ import (
 
 	"github.com/ebitengine/purego"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/provider"
 )
 
 // NVML (the NVIDIA Management Library) is loaded at runtime with purego, so

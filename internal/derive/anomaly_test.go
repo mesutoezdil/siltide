@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/history"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/history"
 )
 
 func TestAnomalies(t *testing.T) {

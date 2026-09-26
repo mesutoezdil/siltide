@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mesutoezdil/siltide/internal/tui"
+	"github.com/moezdil/siltide/internal/tui"
 )
 
 func TestHTMLLines(t *testing.T) {

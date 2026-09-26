@@ -1,6 +1,6 @@
 package tui
 
-import "github.com/mesutoezdil/siltide/internal/query"
+import "github.com/moezdil/siltide/internal/query"
 
 // The filter language lives in internal/query, because it is a query over
 // devices and processes rather than anything to do with drawing them: the

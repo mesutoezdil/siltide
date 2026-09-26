@@ -12,12 +12,12 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/history"
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/provider/sim"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/history"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/provider/sim"
 )
 
 func demoEngine(t *testing.T) *collect.Engine {

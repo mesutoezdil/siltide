@@ -10,10 +10,10 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"github.com/muesli/termenv"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
-	"github.com/mesutoezdil/siltide/internal/kube"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/kube"
 )
 
 // inColor makes the styles emit escapes the way a real terminal sees them.

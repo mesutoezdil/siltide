@@ -22,13 +22,13 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"github.com/muesli/termenv"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/history"
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/provider/apple"
-	"github.com/mesutoezdil/siltide/internal/provider/sim"
-	"github.com/mesutoezdil/siltide/internal/tui"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/history"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/provider/apple"
+	"github.com/moezdil/siltide/internal/provider/sim"
+	"github.com/moezdil/siltide/internal/tui"
 )
 
 func main() {

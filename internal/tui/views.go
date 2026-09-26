@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 func deviceColumns(w int, devs []device.Device) []column {

@@ -8,7 +8,7 @@
 # same: a scrape config and an evening of building panels. Both are here.
 services:
   siltide:
-    image: ghcr.io/mesutoezdil/siltide:latest
+    image: ghcr.io/moezdil/siltide:latest
     command: ["--service", "--listen", "0.0.0.0:9800"]
     # The devices, and the host's processes so a process can be named. Without
     # pid: host siltide sees only what is inside its own namespace, which on a

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 // Filter is the search language: free words match names, pods, and users;

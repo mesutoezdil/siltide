@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 // find resolves what an agent called a device: an index, a label, an id, or

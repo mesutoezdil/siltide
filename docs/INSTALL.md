@@ -7,15 +7,15 @@ Every release and every push to `main` (pre-release `vX.Y.Z-main.N`) publishes b
 # you can read the script first. It picks the build for this machine, checks
 # it against the published checksums, and installs into /usr/local/bin
 # (or ~/.local/bin if that needs a password).
-curl -fsSLO https://raw.githubusercontent.com/mesutoezdil/siltide/main/packaging/install/install.sh
+curl -fsSLO https://raw.githubusercontent.com/moezdil/siltide/main/packaging/install/install.sh
 sh install.sh
 
 # By hand, every step. The first two lines work out the build for this
 # machine: siltide-linux-amd64 on an Apple laptop gives "exec format error".
 os=$(uname -s | tr '[:upper:]' '[:lower:]')                 # linux or darwin
 arch=$(uname -m | sed 's/x86_64/amd64/; s/aarch64/arm64/')  # amd64 or arm64
-tag=$(curl -fsSL https://api.github.com/repos/mesutoezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
-base="https://github.com/mesutoezdil/siltide/releases/download/$tag"
+tag=$(curl -fsSL https://api.github.com/repos/moezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
+base="https://github.com/moezdil/siltide/releases/download/$tag"
 curl -fsSLO "$base/siltide-$os-$arch"
 curl -fsSLO "$base/checksums.txt"
 shasum -a 256 -c checksums.txt --ignore-missing   # sha256sum -c on Linux
@@ -30,18 +30,18 @@ sudo install "siltide-$os-$arch" /usr/local/bin/siltide
 sudo dpkg -i siltide_*_amd64.deb   # or: sudo rpm -i siltide-*.x86_64.rpm
 
 # Homebrew (macOS and Linux)
-brew install mesutoezdil/tap/siltide
+brew install moezdil/tap/siltide
 
 # Go
-go install github.com/mesutoezdil/siltide@latest
+go install github.com/moezdil/siltide@latest
 
 # Nix, without installing anything
-nix run github:mesutoezdil/siltide -- --demo
+nix run github:moezdil/siltide -- --demo
 
 # Container: headless collector with the API and /metrics on port 9800.
 # --pid=host lets it see host processes, not just its own container.
 docker run --rm -p 9800:9800 --gpus all --pid=host \
-  -e NVIDIA_DRIVER_CAPABILITIES=utility ghcr.io/mesutoezdil/siltide:latest
+  -e NVIDIA_DRIVER_CAPABILITIES=utility ghcr.io/moezdil/siltide:latest
 ```
 
 A [systemd unit](../deploy/systemd/siltide.service), a [Kubernetes DaemonSet](../deploy/kubernetes/daemonset.yaml) and a
@@ -59,8 +59,8 @@ on this page is self-contained, so copying only one of them still works.
 ```sh
 os=$(uname -s | tr '[:upper:]' '[:lower:]')
 arch=$(uname -m | sed 's/x86_64/amd64/; s/aarch64/arm64/')
-tag=$(curl -fsSL https://api.github.com/repos/mesutoezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
-base=https://github.com/mesutoezdil/siltide/releases/download/$tag
+tag=$(curl -fsSL https://api.github.com/repos/moezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
+base=https://github.com/moezdil/siltide/releases/download/$tag
 
 curl -fsSLO "$base/siltide-$os-$arch"
 curl -fsSLO "$base/checksums.txt"
@@ -70,7 +70,7 @@ command -v sha256sum >/dev/null && sha=sha256sum || sha="shasum -a 256"
 $sha -c checksums.txt --ignore-missing
 
 # and where it was built, which needs a signed-in gh
-gh attestation verify "siltide-$os-$arch" --repo mesutoezdil/siltide
+gh attestation verify "siltide-$os-$arch" --repo moezdil/siltide
 ```
 
 ## Keeping it up to date

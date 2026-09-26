@@ -37,7 +37,7 @@
 
           meta = {
             description = "Terminal monitor for GPUs, NPUs, and other AI accelerators";
-            homepage = "https://github.com/mesutoezdil/siltide";
+            homepage = "https://github.com/moezdil/siltide";
             license = pkgs.lib.licenses.asl20;
             mainProgram = "siltide";
             platforms = systems;

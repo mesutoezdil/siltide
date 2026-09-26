@@ -1,7 +1,7 @@
 #!/bin/sh
 # Install siltide on Linux or macOS.
 #
-#   curl -fsSLO https://raw.githubusercontent.com/mesutoezdil/siltide/main/packaging/install/install.sh
+#   curl -fsSLO https://raw.githubusercontent.com/moezdil/siltide/main/packaging/install/install.sh
 #   sh install.sh
 #
 # Download the script and then run it, rather than piping it into sh. A
@@ -19,7 +19,7 @@
 # on Alpine, which are /bin/sh on machines people actually run.
 set -eu
 
-REPO="mesutoezdil/siltide"
+REPO="moezdil/siltide"
 BIN="siltide"
 
 die() { echo "install: $*" >&2; exit 1; }

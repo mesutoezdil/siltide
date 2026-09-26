@@ -2,7 +2,7 @@
 
 ## Reporting
 
-Report a vulnerability through [GitHub private vulnerability reporting](https://github.com/mesutoezdil/siltide/security/advisories/new). Please do not open a public issue for it. You should hear back within 7 days.
+Report a vulnerability through [GitHub private vulnerability reporting](https://github.com/moezdil/siltide/security/advisories/new). Please do not open a public issue for it. You should hear back within 7 days.
 
 ## What siltide exposes
 

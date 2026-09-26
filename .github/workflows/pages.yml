@@ -30,7 +30,7 @@ jobs:
           # is added or removed cannot leave it stale.
           python3 - <<'PY'
           import os, datetime
-          base = "https://mesutoezdil.github.io/siltide/"
+          base = "https://moezdil.github.io/siltide/"
           today = datetime.date.today().isoformat()
           pages = sorted(f for f in os.listdir("_site") if f.endswith(".html"))
           urls = []

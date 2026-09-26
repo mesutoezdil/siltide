@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/host"
-	"github.com/mesutoezdil/siltide/internal/kube"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/host"
+	"github.com/moezdil/siltide/internal/kube"
 )
 
 // ---- Nodes and Network ----

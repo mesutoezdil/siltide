@@ -1,4 +1,4 @@
-module github.com/mesutoezdil/siltide
+module github.com/moezdil/siltide
 
 go 1.26.0
 

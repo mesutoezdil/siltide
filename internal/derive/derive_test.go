@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 func TestApply(t *testing.T) {

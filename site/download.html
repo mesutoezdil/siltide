@@ -5,23 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>siltide: downloads</title>
 <meta name="description" content="Binaries and packages for Linux, macOS, Alpine and Arch, a container image and a Nix flake, with the steps to verify what you downloaded.">
-<link rel="canonical" href="https://mesutoezdil.github.io/siltide/download.html">
+<link rel="canonical" href="https://moezdil.github.io/siltide/download.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0d1117">
 <meta name="color-scheme" content="dark light">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="siltide">
-<meta property="og:url" content="https://mesutoezdil.github.io/siltide/download.html">
+<meta property="og:url" content="https://moezdil.github.io/siltide/download.html">
 <meta property="og:title" content="siltide: downloads">
 <meta property="og:description" content="Binaries and packages for Linux, macOS, Alpine and Arch, a container image and a Nix flake, with the steps to verify what you downloaded.">
-<meta property="og:image" content="https://mesutoezdil.github.io/siltide/assets/og-home.png">
+<meta property="og:image" content="https://moezdil.github.io/siltide/assets/og-home.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="siltide showing a fleet of accelerators in a terminal">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="siltide: downloads">
 <meta name="twitter:description" content="Binaries and packages for Linux, macOS, Alpine and Arch, a container image and a Nix flake, with the steps to verify what you downloaded.">
-<meta name="twitter:image" content="https://mesutoezdil.github.io/siltide/assets/og-home.png">
+<meta name="twitter:image" content="https://moezdil.github.io/siltide/assets/og-home.png">
 <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -39,7 +39,7 @@
       <a class="link" href="download.html" data-en="Download" data-zh="下载">Download</a>
     </div>
     <div class="nav-right">
-      <a class="link" href="https://github.com/mesutoezdil/siltide">GitHub ↗</a>
+      <a class="link" href="https://github.com/moezdil/siltide">GitHub ↗</a>
       <button class="lang-btn" id="lang-toggle" title="切换语言 / switch language" type="button">中文</button>
       <button class="mode-btn" id="mode-toggle" title="switch color mode" type="button">light</button>
     </div>
@@ -51,7 +51,7 @@
   <div class="wrap">
     <h1 data-en="Download siltide" data-zh="下载 siltide">Download siltide</h1>
     <p class="lede" data-en="One static binary per platform, or a package for the manager you already use. The quickest way is the install script: it works out which build this machine needs, checks it against the published checksums, and puts it on your PATH." data-zh="每个平台一个静态二进制文件，或者用你已有的包管理器安装。最快的方式是安装脚本：它会判断这台机器需要哪个构建，用发布的校验和核对，然后把它放到你的 PATH 上。">One static binary per platform, or a package for the manager you already use. The quickest way is the install script: it works out which build this machine needs, checks it against the published checksums, and puts it on your PATH.</p>
-<pre><button class="copy">copy</button><code>curl -fsSLO https://raw.githubusercontent.com/mesutoezdil/siltide/main/packaging/install/install.sh
+<pre><button class="copy">copy</button><code>curl -fsSLO https://raw.githubusercontent.com/moezdil/siltide/main/packaging/install/install.sh
 sh install.sh</code></pre>
     <p class="note" data-en="The rest of this page is the manual alternative." data-zh="本页其余部分是手动安装的替代方案。">The rest of this page is the manual alternative.</p>
 
@@ -64,26 +64,26 @@ sh install.sh</code></pre>
       <tr><td>Fedora, RHEL, SUSE</td><td class="mono">siltide-*.x86_64.rpm</td><td data-en="dnf or zypper" data-zh="dnf 或 zypper">dnf or zypper</td></tr>
       <tr><td>Alpine</td><td class="mono">siltide_*.apk</td><td data-en="apk, with an OpenRC service included" data-zh="apk，并附带 OpenRC 服务">apk, with an OpenRC service included</td></tr>
       <tr><td>Arch</td><td class="mono">siltide_*.pkg.tar.zst</td><td data-en="pacman" data-zh="pacman">pacman</td></tr>
-      <tr><td data-en="Container" data-zh="容器">Container</td><td class="mono">ghcr.io/mesutoezdil/siltide</td><td data-en="pull the tag again" data-zh="重新 pull 镜像标签">pull the tag again</td></tr>
-      <tr><td>Nix</td><td class="mono">github:mesutoezdil/siltide</td><td data-en="nix run, nothing installed" data-zh="nix run，不安装任何东西">nix run, nothing installed</td></tr>
+      <tr><td data-en="Container" data-zh="容器">Container</td><td class="mono">ghcr.io/moezdil/siltide</td><td data-en="pull the tag again" data-zh="重新 pull 镜像标签">pull the tag again</td></tr>
+      <tr><td>Nix</td><td class="mono">github:moezdil/siltide</td><td data-en="nix run, nothing installed" data-zh="nix run，不安装任何东西">nix run, nothing installed</td></tr>
     </table>
     </div>
 
-    <p style="margin-top:1.4rem"><a class="btn primary" href="https://github.com/mesutoezdil/siltide/releases/latest" data-en="All release assets ↗" data-zh="全部发布文件 ↗">All release assets ↗</a></p>
+    <p style="margin-top:1.4rem"><a class="btn primary" href="https://github.com/moezdil/siltide/releases/latest" data-en="All release assets ↗" data-zh="全部发布文件 ↗">All release assets ↗</a></p>
 
     <h2 data-en="By hand, every step" data-zh="手动完成，每一步">By hand, every step</h2>
     <p class="lede" data-en="The install script does all of this. To do it manually, paste the whole block into an empty directory: it downloads the build for this machine, checks it against the published checksums, checks where it was built, and installs it." data-zh="安装脚本会完成所有这些。若要手动操作，请在一个空目录里整段粘贴：它会下载适合这台机器的构建，用发布的校验和核对，确认构建来源，然后安装。">The install script does all of this. To do it manually, paste the whole block into an empty directory: it downloads the build for this machine, checks it against the published checksums, checks where it was built, and installs it.</p>
 <pre><button class="copy">copy</button><code>os=$(uname -s | tr '[:upper:]' '[:lower:]')                 # linux or darwin
 arch=$(uname -m | sed 's/x86_64/amd64/; s/aarch64/arm64/')  # amd64 or arm64
-tag=$(curl -fsSL https://api.github.com/repos/mesutoezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
-base=https://github.com/mesutoezdil/siltide/releases/download/$tag
+tag=$(curl -fsSL https://api.github.com/repos/moezdil/siltide/releases | grep -m1 '"tag_name"' | cut -d '"' -f4)
+base=https://github.com/moezdil/siltide/releases/download/$tag
 
 curl -fsSLO "$base/siltide-$os-$arch"
 curl -fsSLO "$base/checksums.txt"
 
 command -v sha256sum >/dev/null &amp;&amp; sha=sha256sum || sha="shasum -a 256"
 $sha -c checksums.txt --ignore-missing
-gh attestation verify "siltide-$os-$arch" --repo mesutoezdil/siltide
+gh attestation verify "siltide-$os-$arch" --repo moezdil/siltide
 
 chmod +x "siltide-$os-$arch"
 sudo install "siltide-$os-$arch" /usr/local/bin/siltide</code></pre>
@@ -104,9 +104,9 @@ siltide --update   # move to the newest release, checksum verified</code></pre>
     <div class="row">
       <span data-en="Apache-2.0. siltide is an independent project. The vendor names above belong to their own companies." data-zh="Apache-2.0 协议。siltide 是一个独立项目，上面提到的厂商名称都属于各自公司。">Apache-2.0. siltide is an independent project. The vendor names above belong to their own companies.</span>
       <span>
-        <a href="https://github.com/mesutoezdil/siltide">GitHub</a> ·
-        <a href="https://github.com/mesutoezdil/siltide/issues" data-en="Issues" data-zh="问题反馈">Issues</a> ·
-        <a href="https://github.com/mesutoezdil/siltide/blob/main/CONTRIBUTING.md" data-en="Contributing" data-zh="参与贡献">Contributing</a>
+        <a href="https://github.com/moezdil/siltide">GitHub</a> ·
+        <a href="https://github.com/moezdil/siltide/issues" data-en="Issues" data-zh="问题反馈">Issues</a> ·
+        <a href="https://github.com/moezdil/siltide/blob/main/CONTRIBUTING.md" data-en="Contributing" data-zh="参与贡献">Contributing</a>
       </span>
     </div>
   </div>

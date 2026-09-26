@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
-	"github.com/mesutoezdil/siltide/internal/query"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/query"
 )
 
 // Version is the protocol revision this server speaks.

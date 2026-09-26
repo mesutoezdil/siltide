@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 func TestDetector(t *testing.T) {

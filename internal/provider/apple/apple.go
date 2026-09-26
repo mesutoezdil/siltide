@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/provider"
 )
 
 var (

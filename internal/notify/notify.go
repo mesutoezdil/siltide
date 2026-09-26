@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 // Options are the alert outputs from the config.

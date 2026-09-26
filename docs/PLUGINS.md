@@ -1,6 +1,6 @@
 # The plugin surface
 
-This is the answer to [#88](https://github.com/mesutoezdil/siltide/issues/88),
+This is the answer to [#88](https://github.com/moezdil/siltide/issues/88),
 which asked whether an external command-line tool should be able to contribute
 a view, and priced that at a registry, a sandbox, timeouts and a permission
 model.
