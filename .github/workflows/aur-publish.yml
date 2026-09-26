@@ -36,7 +36,7 @@ jobs:
           set -eu
           v="${{ inputs.version }}"
           v="${v#v}"   # the release workflow passes the tag, a person passes the number
-          base="https://github.com/mesutoezdil/siltide/releases/download/v$v"
+          base="https://github.com/moezdil/siltide/releases/download/v$v"
           curl -fsSL "$base/checksums.txt" -o checksums.txt
           amd=$(awk '$2 == "siltide-linux-amd64" { print $1 }' checksums.txt)
           arm=$(awk '$2 == "siltide-linux-arm64" { print $1 }' checksums.txt)

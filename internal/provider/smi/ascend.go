@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // Ascend reads Huawei Ascend NPUs from the `npu-smi info` table, the only

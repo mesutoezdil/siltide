@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // Hygon reads DCUs from `hy-smi --json`, a `rocm-smi` fork.

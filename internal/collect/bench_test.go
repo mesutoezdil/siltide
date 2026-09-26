@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/history"
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/provider/sim"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/history"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/provider/sim"
 )
 
 // BenchmarkCollect measures one full pass (read, enrich, derive, health,

@@ -6,8 +6,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/provider"
 )
 
 // ponytail: NVML on Linux only; add nvml.dll when a Windows user asks.

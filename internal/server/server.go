@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // Schema is the JSON snapshot schema version served by the API.

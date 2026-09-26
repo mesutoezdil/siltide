@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/config"
 )
 
 func main() {
 	s := object(reflect.TypeOf(config.Default()))
 	s["$schema"] = "https://json-schema.org/draft/2020-12/schema"
-	s["$id"] = "https://raw.githubusercontent.com/mesutoezdil/siltide/main/schemas/config.schema.json"
+	s["$id"] = "https://raw.githubusercontent.com/moezdil/siltide/main/schemas/config.schema.json"
 	s["title"] = "siltide configuration"
 	s["description"] = "Every key of ~/.config/siltide/config.yaml. Unknown keys are rejected by siltide itself, so this schema is closed too."
 	b, err := json.MarshalIndent(s, "", "  ")

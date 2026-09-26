@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/provider"
 )
 
 // TestFakeNVML builds `testdata/fakenvml.c` into `libnvidia-ml.so.1` and

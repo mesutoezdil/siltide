@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // AMD (amdgpu) and Intel (i915/xe) through the kernel's DRM (Direct

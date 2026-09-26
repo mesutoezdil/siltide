@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mesutoezdil/siltide/actions/workflows/ci.yml"><img src="https://github.com/mesutoezdil/siltide/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
-  <a href="https://github.com/mesutoezdil/siltide/releases"><img src="https://img.shields.io/github/v/release/mesutoezdil/siltide?include_prereleases&sort=semver" alt="release"></a>
-  <a href="go.mod"><img src="https://img.shields.io/github/go-mod/go-version/mesutoezdil/siltide" alt="go version"></a>
+  <a href="https://github.com/moezdil/siltide/actions/workflows/ci.yml"><img src="https://github.com/moezdil/siltide/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/moezdil/siltide/releases"><img src="https://img.shields.io/github/v/release/moezdil/siltide?include_prereleases&sort=semver" alt="release"></a>
+  <a href="go.mod"><img src="https://img.shields.io/github/go-mod/go-version/moezdil/siltide" alt="go version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="license"></a>
-  <a href="https://github.com/sponsors/mesutoezdil"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="sponsor"></a>
+  <a href="https://github.com/sponsors/moezdil"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="sponsor"></a>
 </p>
 
 siltide is a terminal monitor for AI accelerators from 15 vendors: GPUs, NPUs, XPUs, MLUs, DCUs, GCUs, and Apple silicon. It shows utilization, memory, processes, power, thermals, links, and health per device. History stays on disk. Pods and Slurm jobs sit next to processes. JSON and Prometheus cover fleets.
 
-More on [the site](https://mesutoezdil.github.io/siltide/): every tab, every key, and screenshots.
+More on [the site](https://moezdil.github.io/siltide/): every tab, every key, and screenshots.
 
 <p align="center">
   <img src="assets/demo.gif" alt="siltide moving through the Overview, Devices, Processes, History, Links, Health, and Dashboard tabs on a simulated fleet, with a filter typed into the bar and history scrubbed back" width="100%">
@@ -20,7 +20,7 @@ More on [the site](https://mesutoezdil.github.io/siltide/): every tab, every key
 
 ## Supported accelerators
 
-The vendor list follows the device plugins in [HAMi](https://github.com/Project-HAMi/HAMi/tree/master/pkg/device), plus Apple and Intel. Every vendor is auto-detected. `--vendors nvidia,ascend` limits the probe. NVIDIA (an H100 SXM, driver 570.211.01, every metric checked against `nvidia-smi`) and Apple silicon (an M4 Pro) run on real hardware today. The rest are built against each vendor's documented tool output, with a fixture behind every parser. A hardware report through [an issue](https://github.com/mesutoezdil/siltide/issues/new/choose) is the fastest way to move one from "should work" to confirmed.
+The vendor list follows the device plugins in [HAMi](https://github.com/Project-HAMi/HAMi/tree/master/pkg/device), plus Apple and Intel. Every vendor is auto-detected. `--vendors nvidia,ascend` limits the probe. NVIDIA (an H100 SXM, driver 570.211.01, every metric checked against `nvidia-smi`) and Apple silicon (an M4 Pro) run on real hardware today. The rest are built against each vendor's documented tool output, with a fixture behind every parser. A hardware report through [an issue](https://github.com/moezdil/siltide/issues/new/choose) is the fastest way to move one from "should work" to confirmed.
 
 **Per-process** is the column worth reading first: whether the vendor's tool
 names the processes holding a device, not just the device totals. It is what
@@ -57,12 +57,12 @@ The short version, with every platform and the verification steps in
 # you can read the script first. It picks the build for this machine, checks
 # it against the published checksums, and installs into /usr/local/bin
 # (or ~/.local/bin if that needs a password).
-curl -fsSLO https://raw.githubusercontent.com/mesutoezdil/siltide/main/packaging/install/install.sh
+curl -fsSLO https://raw.githubusercontent.com/moezdil/siltide/main/packaging/install/install.sh
 sh install.sh
 
-brew install mesutoezdil/tap/siltide              # macOS and Linux
-go install github.com/mesutoezdil/siltide@latest  # from source
-nix run github:mesutoezdil/siltide -- --demo      # without installing anything
+brew install moezdil/tap/siltide              # macOS and Linux
+go install github.com/moezdil/siltide@latest  # from source
+nix run github:moezdil/siltide -- --demo      # without installing anything
 ```
 
 ## Using it
@@ -96,7 +96,7 @@ A [systemd unit](deploy/systemd/siltide.service), a [Kubernetes DaemonSet](deplo
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add a vendor and what a change needs before it merges. Security reports: [SECURITY.md](SECURITY.md). Roadmap: the [issue list](https://github.com/mesutoezdil/siltide/issues). Changes: [CHANGELOG.md](CHANGELOG.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add a vendor and what a change needs before it merges. Security reports: [SECURITY.md](SECURITY.md). Roadmap: the [issue list](https://github.com/moezdil/siltide/issues). Changes: [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

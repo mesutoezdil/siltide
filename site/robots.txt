@@ -1,8 +1,8 @@
-# siltide — https://mesutoezdil.github.io/siltide/
+# siltide — https://moezdil.github.io/siltide/
 # Everything here is documentation for a tool anyone can download. Crawlers,
 # including the ones that answer questions on someone else's behalf, are
 # welcome to all of it.
 User-agent: *
 Allow: /
 
-Sitemap: https://mesutoezdil.github.io/siltide/sitemap.xml
+Sitemap: https://moezdil.github.io/siltide/sitemap.xml

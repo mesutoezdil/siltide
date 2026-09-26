@@ -12,9 +12,9 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/provider/sim"
-	"github.com/mesutoezdil/siltide/internal/tui"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/provider/sim"
+	"github.com/moezdil/siltide/internal/tui"
 )
 
 // beat is one move of the demo: keys someone presses, then the frames the

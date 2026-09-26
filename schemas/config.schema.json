@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/mesutoezdil/siltide/main/schemas/config.schema.json",
+  "$id": "https://raw.githubusercontent.com/moezdil/siltide/main/schemas/config.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Every key of ~/.config/siltide/config.yaml. Unknown keys are rejected by siltide itself, so this schema is closed too.",

@@ -57,9 +57,9 @@ type Release struct {
 func (r Release) Version() string { return strings.TrimPrefix(r.Tag, "v") }
 
 const (
-	latestURL   = "https://api.github.com/repos/mesutoezdil/siltide/releases/latest"
-	releasesURL = "https://api.github.com/repos/mesutoezdil/siltide/releases?per_page=20"
-	downloadURL = "https://github.com/mesutoezdil/siltide/releases/download"
+	latestURL   = "https://api.github.com/repos/moezdil/siltide/releases/latest"
+	releasesURL = "https://api.github.com/repos/moezdil/siltide/releases?per_page=20"
+	downloadURL = "https://github.com/moezdil/siltide/releases/download"
 )
 
 // Channel is which releases to consider.

@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Security report
-    url: https://github.com/mesutoezdil/siltide/security/policy
+    url: https://github.com/moezdil/siltide/security/policy
     about: A vulnerability should not be filed as a public issue. The security policy says how to report one.
   - name: Hardware report
-    url: https://github.com/mesutoezdil/siltide/issues/new?template=hardware.yml
+    url: https://github.com/moezdil/siltide/issues/new?template=hardware.yml
     about: A run on real accelerators, with the raw vendor output attached.

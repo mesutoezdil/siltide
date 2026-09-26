@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mesutoezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/config"
 )
 
 // TestSchemaMatchesTheFileInTheRepository is what stops the published schema

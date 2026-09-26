@@ -1,6 +1,6 @@
 [Unit]
 Description=siltide accelerator monitor (headless collector with API and /metrics)
-Documentation=https://github.com/mesutoezdil/siltide
+Documentation=https://github.com/moezdil/siltide
 After=network-online.target
 Wants=network-online.target
 

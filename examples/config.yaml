@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/mesutoezdil/siltide/main/schemas/config.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/moezdil/siltide/main/schemas/config.schema.json
 # siltide configuration. Copy to `~/.config/siltide/config.yaml` (or pass `--config`).
 # Every key is optional; these are the defaults unless noted. Unknown keys
 # are rejected with their line number. `siltide --print-config` shows the

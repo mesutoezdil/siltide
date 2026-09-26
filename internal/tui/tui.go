@@ -12,8 +12,8 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // tabs in display order; the key switches to the tab.

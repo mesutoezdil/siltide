@@ -7,7 +7,7 @@ import (
 
 	"go.yaml.in/yaml/v3"
 
-	"github.com/mesutoezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/config"
 )
 
 // session is where the interface was when it was last closed. It is the same

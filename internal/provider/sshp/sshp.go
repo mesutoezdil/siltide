@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/provider/smi"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/provider/smi"
 )
 
 // Providers returns one provider per CLI vendor for target ("user@host" or

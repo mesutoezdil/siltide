@@ -5,7 +5,7 @@ package cost
 import (
 	"strings"
 
-	"github.com/mesutoezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/device"
 )
 
 // Table maps a device name substring to a price per device-hour.

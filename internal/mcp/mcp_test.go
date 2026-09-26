@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/history"
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/provider/sim"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/history"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/provider/sim"
 )
 
 // demoServer is a server over the simulated fleet, with history so the

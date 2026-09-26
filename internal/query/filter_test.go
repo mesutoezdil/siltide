@@ -3,8 +3,8 @@ package query
 import (
 	"testing"
 
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 func testDevices() []device.Device {

@@ -37,7 +37,7 @@ nfpms:
   - id: packages
     package_name: siltide
     vendor: Mesut Oezdil
-    homepage: https://github.com/mesutoezdil/siltide
+    homepage: https://github.com/moezdil/siltide
     maintainer: Mesut Oezdil <versusfinem@gmail.com>
     description: Terminal monitor for GPUs, NPUs, and other AI accelerators.
     license: Apache-2.0
@@ -73,27 +73,27 @@ nfpms:
         dst: /usr/share/man/man1/siltide.1
 
 dockers:
-  - image_templates: ["ghcr.io/mesutoezdil/siltide:{{ .Version }}-amd64"]
+  - image_templates: ["ghcr.io/moezdil/siltide:{{ .Version }}-amd64"]
     goarch: amd64
     dockerfile: Dockerfile.release
     use: buildx
     build_flag_templates: ["--platform=linux/amd64"]
-  - image_templates: ["ghcr.io/mesutoezdil/siltide:{{ .Version }}-arm64"]
+  - image_templates: ["ghcr.io/moezdil/siltide:{{ .Version }}-arm64"]
     goarch: arm64
     dockerfile: Dockerfile.release
     use: buildx
     build_flag_templates: ["--platform=linux/arm64"]
 
 docker_manifests:
-  - name_template: ghcr.io/mesutoezdil/siltide:{{ .Version }}
+  - name_template: ghcr.io/moezdil/siltide:{{ .Version }}
     image_templates:
-      - ghcr.io/mesutoezdil/siltide:{{ .Version }}-amd64
-      - ghcr.io/mesutoezdil/siltide:{{ .Version }}-arm64
-  - name_template: ghcr.io/mesutoezdil/siltide:latest
+      - ghcr.io/moezdil/siltide:{{ .Version }}-amd64
+      - ghcr.io/moezdil/siltide:{{ .Version }}-arm64
+  - name_template: ghcr.io/moezdil/siltide:latest
     skip_push: "{{ .Prerelease }}"
     image_templates:
-      - ghcr.io/mesutoezdil/siltide:{{ .Version }}-amd64
-      - ghcr.io/mesutoezdil/siltide:{{ .Version }}-arm64
+      - ghcr.io/moezdil/siltide:{{ .Version }}-amd64
+      - ghcr.io/moezdil/siltide:{{ .Version }}-arm64
 
 release:
   prerelease: auto
@@ -101,7 +101,7 @@ release:
     Single static binaries for Linux and macOS, deb, rpm, apk, and Arch
     packages, a container image, and a Homebrew tap. Install:
 
-        curl -fLo siltide https://github.com/mesutoezdil/siltide/releases/download/{{ .Tag }}/siltide-linux-amd64
+        curl -fLo siltide https://github.com/moezdil/siltide/releases/download/{{ .Tag }}/siltide-linux-amd64
         chmod +x siltide && sudo install siltide /usr/local/bin/
 
     On macOS clear the quarantine flag first: `xattr -d com.apple.quarantine siltide`.

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/events"
+	"github.com/moezdil/siltide/internal/events"
 )
 
 func TestPush(t *testing.T) {

@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mesutoezdil/siltide/internal/collect"
-	"github.com/mesutoezdil/siltide/internal/config"
-	"github.com/mesutoezdil/siltide/internal/device"
-	"github.com/mesutoezdil/siltide/internal/kube"
-	"github.com/mesutoezdil/siltide/internal/provider"
-	"github.com/mesutoezdil/siltide/internal/tui"
+	"github.com/moezdil/siltide/internal/collect"
+	"github.com/moezdil/siltide/internal/config"
+	"github.com/moezdil/siltide/internal/device"
+	"github.com/moezdil/siltide/internal/kube"
+	"github.com/moezdil/siltide/internal/provider"
+	"github.com/moezdil/siltide/internal/tui"
 )
 
 // flagNames are every long flag, for completions.
